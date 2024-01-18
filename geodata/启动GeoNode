@@ -1,0 +1,20 @@
+启动GeoNode
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+workon geonode_dev
+cd /opt/geonode
+./paver_dev.sh start_django
+
+启动GeoNode-project
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
+workon my_geonode
+cd /opt/geonode-project/my_geonode/src
+./paver_dev.sh start_django
+
+
+GeoNode用户：
+usr：testuser1
+pwd:geondoe
+
+来自香港，全球互联，8k视频随你看，注册及送永久流量，地址：http://run.weaksharedptr.com/register?share_id=adabeaa0-8f0c-4c34-be94-b32dfc841ac1
